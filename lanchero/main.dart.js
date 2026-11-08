@@ -30911,6 +30911,10 @@ if(B.c.n(s,"driver_not_active"))return"Tu cuenta todav\xeda no est\xe1 aprobada.
 if(B.c.n(s,"offer_not_available"))return"Esa propuesta ya venci\xf3 o no est\xe1 disponible."
 if(B.c.n(s,"trip_not_available"))return"Este viaje ya no est\xe1 disponible."
 if(B.c.n(s,"price_out_of_range"))return"El precio est\xe1 fuera del rango permitido."
+if(B.c.n(s,"service_suspended"))return"El servicio est\xe1 suspendido por ahora. Mir\xe1 el aviso en la pantalla principal."
+if(B.c.n(s,"not_admin"))return"Tu usuario no tiene permisos de operaciones."
+if(B.c.n(s,"driver_not_found"))return"No se encontr\xf3 ese lanchero."
+if(B.c.n(s,"need_two_points"))return"Marc\xe1 al menos dos puntos."
 if(B.c.n(s,"cannot_cancel"))return"Este viaje ya no se puede cancelar."
 if(B.c.n(s,"Invalid login")||B.c.n(s,"otp"))return"C\xf3digo incorrecto o vencido."
 return"Algo sali\xf3 mal: "+s},
